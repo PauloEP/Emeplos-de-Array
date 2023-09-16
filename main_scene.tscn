@@ -1,0 +1,192 @@
+[gd_scene load_steps=48 format=3 uid="uid://cj41cbjnn4acy"]
+
+[ext_resource type="Script" path="res://Scripts/Array.gd" id="2_ntnv1"]
+[ext_resource type="Script" path="res://Scripts/Append.gd" id="3_h1m8d"]
+[ext_resource type="Script" path="res://Scripts/All.gd" id="3_jqavf"]
+[ext_resource type="Script" path="res://Scripts/Any.gd" id="4_3ncr6"]
+[ext_resource type="Script" path="res://Scripts/Append Array.gd" id="4_5mygq"]
+[ext_resource type="Script" path="res://Scripts/Assign.gd" id="5_3xa4x"]
+[ext_resource type="Script" path="res://Scripts/Back.gd" id="8_2oltn"]
+[ext_resource type="Script" path="res://Scripts/Bsearch.gd" id="9_gxee5"]
+[ext_resource type="Script" path="res://Scripts/BsearchCustom.gd" id="10_6b2rt"]
+[ext_resource type="Script" path="res://Scripts/Clear.gd" id="11_iocw6"]
+[ext_resource type="Script" path="res://Scripts/Count.gd" id="12_pftrq"]
+[ext_resource type="Script" path="res://Scripts/Duplicate.gd" id="13_46kx6"]
+[ext_resource type="Script" path="res://Scripts/Erase.gd" id="14_skqwu"]
+[ext_resource type="Script" path="res://Scripts/Fill.gd" id="15_rwxg5"]
+[ext_resource type="Script" path="res://Scripts/Filter.gd" id="16_0kr2u"]
+[ext_resource type="Script" path="res://Scripts/Find.gd" id="17_vbobt"]
+[ext_resource type="Script" path="res://Scripts/Front.gd" id="18_m51vw"]
+[ext_resource type="Script" path="res://Scripts/GetTypedBuiltin.gd" id="19_mycb6"]
+[ext_resource type="Script" path="res://Scripts/GetTypedClassName.gd" id="20_qrm5m"]
+[ext_resource type="Script" path="res://Scripts/GetTypedScript.gd" id="21_anoyb"]
+[ext_resource type="Script" path="res://Scripts/Has.gd" id="22_nhquk"]
+[ext_resource type="Script" path="res://Scripts/Hash.gd" id="23_s7jus"]
+[ext_resource type="Script" path="res://Scripts/Insert.gd" id="24_6pd7r"]
+[ext_resource type="Script" path="res://Scripts/IsEmpty.gd" id="25_i1qn4"]
+[ext_resource type="Script" path="res://Scripts/IsReadOnly.gd" id="26_sxy4j"]
+[ext_resource type="Script" path="res://Scripts/IsSameTyped.gd" id="27_1j1rq"]
+[ext_resource type="Script" path="res://Scripts/IsTyped.gd" id="28_0gire"]
+[ext_resource type="Script" path="res://Scripts/MakeReadOnly.gd" id="29_f3luv"]
+[ext_resource type="Script" path="res://Scripts/Map.gd" id="30_ayo2f"]
+[ext_resource type="Script" path="res://Scripts/Max.gd" id="31_8pvl3"]
+[ext_resource type="Script" path="res://Scripts/Min.gd" id="32_xqvwr"]
+[ext_resource type="Script" path="res://Scripts/PickRandom.gd" id="33_ltkv8"]
+[ext_resource type="Script" path="res://Scripts/PopAt.gd" id="34_lgfmb"]
+[ext_resource type="Script" path="res://Scripts/PopBack.gd" id="35_kodl8"]
+[ext_resource type="Script" path="res://Scripts/PopFront.gd" id="36_53ux7"]
+[ext_resource type="Script" path="res://Scripts/PushBack.gd" id="37_0hkwf"]
+[ext_resource type="Script" path="res://Scripts/PushFront.gd" id="38_t7qrd"]
+[ext_resource type="Script" path="res://Scripts/Reduce.gd" id="39_k78rt"]
+[ext_resource type="Script" path="res://Scripts/RemoveAt.gd" id="40_wa5kb"]
+[ext_resource type="Script" path="res://Scripts/Resize.gd" id="41_sydts"]
+[ext_resource type="Script" path="res://Scripts/Reverse.gd" id="42_x3jiq"]
+[ext_resource type="Script" path="res://Scripts/Rfind.gd" id="43_x5s3e"]
+[ext_resource type="Script" path="res://Scripts/Shuffle.gd" id="44_vttsm"]
+[ext_resource type="Script" path="res://Scripts/Size.gd" id="45_vg2df"]
+[ext_resource type="Script" path="res://Scripts/Slice.gd" id="46_hd8uc"]
+[ext_resource type="Script" path="res://Scripts/Sort.gd" id="47_fmghd"]
+[ext_resource type="Script" path="res://Scripts/SortCustom.gd" id="48_1n1nb"]
+
+[node name="MainScene" type="Node2D"]
+
+[node name="Array" type="Node2D" parent="."]
+script = ExtResource("2_ntnv1")
+
+[node name="All" type="Node2D" parent="."]
+script = ExtResource("3_jqavf")
+
+[node name="Any" type="Node2D" parent="."]
+script = ExtResource("4_3ncr6")
+
+[node name="Append" type="Node2D" parent="."]
+script = ExtResource("3_h1m8d")
+
+[node name="AppendArray" type="Node2D" parent="."]
+script = ExtResource("4_5mygq")
+
+[node name="Assign" type="Node2D" parent="."]
+script = ExtResource("5_3xa4x")
+
+[node name="Back" type="Node2D" parent="."]
+script = ExtResource("8_2oltn")
+
+[node name="Bsearch" type="Node2D" parent="."]
+script = ExtResource("9_gxee5")
+
+[node name="BsearchCustom" type="Node2D" parent="."]
+script = ExtResource("10_6b2rt")
+
+[node name="Clear" type="Node2D" parent="."]
+script = ExtResource("11_iocw6")
+
+[node name="Count" type="Node2D" parent="."]
+script = ExtResource("12_pftrq")
+
+[node name="Duplicate" type="Node2D" parent="."]
+script = ExtResource("13_46kx6")
+
+[node name="Erase" type="Node2D" parent="."]
+script = ExtResource("14_skqwu")
+
+[node name="Fill" type="Node2D" parent="."]
+script = ExtResource("15_rwxg5")
+
+[node name="Filter" type="Node2D" parent="."]
+script = ExtResource("16_0kr2u")
+
+[node name="Find" type="Node2D" parent="."]
+script = ExtResource("17_vbobt")
+
+[node name="Front" type="Node2D" parent="."]
+script = ExtResource("18_m51vw")
+
+[node name="GetTypedBuiltin" type="Node2D" parent="."]
+script = ExtResource("19_mycb6")
+
+[node name="GetTypedClassName" type="Node2D" parent="."]
+script = ExtResource("20_qrm5m")
+
+[node name="GetTypedScript" type="Node2D" parent="."]
+script = ExtResource("21_anoyb")
+
+[node name="Has" type="Node2D" parent="."]
+script = ExtResource("22_nhquk")
+
+[node name="Hash" type="Node2D" parent="."]
+script = ExtResource("23_s7jus")
+
+[node name="Insert" type="Node2D" parent="."]
+script = ExtResource("24_6pd7r")
+
+[node name="IsEmpty" type="Node2D" parent="."]
+script = ExtResource("25_i1qn4")
+
+[node name="IsReadOnly" type="Node2D" parent="."]
+script = ExtResource("26_sxy4j")
+
+[node name="IsSameTyped" type="Node2D" parent="."]
+script = ExtResource("27_1j1rq")
+
+[node name="IsTyped" type="Node2D" parent="."]
+script = ExtResource("28_0gire")
+
+[node name="MakeReadOnly" type="Node2D" parent="."]
+script = ExtResource("29_f3luv")
+
+[node name="Map" type="Node2D" parent="."]
+script = ExtResource("30_ayo2f")
+
+[node name="Max" type="Node2D" parent="."]
+script = ExtResource("31_8pvl3")
+
+[node name="Min" type="Node2D" parent="."]
+script = ExtResource("32_xqvwr")
+
+[node name="PickRandom" type="Node2D" parent="."]
+script = ExtResource("33_ltkv8")
+
+[node name="PopAt" type="Node2D" parent="."]
+script = ExtResource("34_lgfmb")
+
+[node name="PopBack" type="Node2D" parent="."]
+script = ExtResource("35_kodl8")
+
+[node name="PopFront" type="Node2D" parent="."]
+script = ExtResource("36_53ux7")
+
+[node name="PushBack" type="Node2D" parent="."]
+script = ExtResource("37_0hkwf")
+
+[node name="PushFront" type="Node2D" parent="."]
+script = ExtResource("38_t7qrd")
+
+[node name="Reduce" type="Node2D" parent="."]
+script = ExtResource("39_k78rt")
+
+[node name="RemoveAt" type="Node2D" parent="."]
+script = ExtResource("40_wa5kb")
+
+[node name="Resize" type="Node2D" parent="."]
+script = ExtResource("41_sydts")
+
+[node name="Reverse" type="Node2D" parent="."]
+script = ExtResource("42_x3jiq")
+
+[node name="Rfind" type="Node2D" parent="."]
+script = ExtResource("43_x5s3e")
+
+[node name="Shuffle" type="Node2D" parent="."]
+script = ExtResource("44_vttsm")
+
+[node name="Size" type="Node2D" parent="."]
+script = ExtResource("45_vg2df")
+
+[node name="Slice" type="Node2D" parent="."]
+script = ExtResource("46_hd8uc")
+
+[node name="Sort" type="Node2D" parent="."]
+script = ExtResource("47_fmghd")
+
+[node name="SortCustom" type="Node2D" parent="."]
+script = ExtResource("48_1n1nb")
